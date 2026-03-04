@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Calculator Test Suite">
+    <test name="Calculator Tests">
+        <classes>
+            <class name="com.sepqm.tests.CalculatorAssertionsTest"/>
+            <class name="com.sepqm.tests.CalculatorFixturesTest"/>
+            <class name="com.sepqm.tests.CalculatorDataProviderTest"/>
+            <class name="com.sepqm.tests.CalculatorReportDemoTest"/>
+        </classes>
+    </test>
+</suite>
